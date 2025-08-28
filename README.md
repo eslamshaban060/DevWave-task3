@@ -1,6 +1,6 @@
 # 🔐 Simple Authentication App
 
-A basic **Authentication App** built as part of **Task 3** from the **DevWave Training – Round 1**.  
+A basic **Authentication App** built as part of **Task 3** from the **DevWave Training **.  
 This project demonstrates how to handle **registration, login, and user sessions** using only **HTML, CSS**, and **JavaScript** with `localStorage`.
 
 ---
@@ -36,3 +36,4 @@ This project demonstrates how to handle **registration, login, and user sessions
 ## 🧑‍💻 Author
 **Eslam Shaban**  
 Part of **DevWave Training – Round 1 (Task 3)**.
+
