@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Register System Using JavaScript</title>
+
+    <!-- font awsom cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- to link css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- =============== login form ============ -->
+    <section>
+      <div class="continer">
+        <!-- form title  -->
+        <div class="formTitle">
+          <div><i class="fa-solid fa-user-plus"></i></div>
+          <h2>Create Account</h2>
+          <p>Join our community today</p>
+        </div>
+
+        <!-- login form  -->
+        <form action="">
+          <div>
+            <label for=" Full Name">
+              <div><i class="fa-solid fa-user"></i></div>
+              <p>Full Name</p></label
+            >
+            <input
+              class="fullName"
+              type="text"
+              placeholder="Enter your full name"
+            />
+            <p class="alert nameAlert">you should enter your name *</p>
+          </div>
+          <div>
+            <label for="Email Address">
+              <div><i class="fa-solid fa-envelope"></i></div>
+              <p>Email Address</p></label
+            >
+            <input class="email" type="email" placeholder="Enter your email" />
+            <p class="alert emailAlert">
+              enter correct email withe end "@gmail.com" *
+            </p>
+          </div>
+          <div>
+            <label for="Email Address"
+              ><div><i class="fa-solid fa-lock"></i></div>
+              <p>Password</p>
+            </label>
+            <input
+              class="password"
+              type="password"
+              placeholder="Enter your password"
+            />
+            <p class="alert passwordAlert">you should enter your password *</p>
+          </div>
+          <button class="registerbutton" type="submit">Sign in</button>
+        </form>
+
+        <!-- redirect link  -->
+        <div class="rdirectLink">
+          <p>Already have an account?</p>
+          <a href="index.html">Sign In</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- to link js fille  -->
+    <script src="js/scribt.js"></script>
+  </body>
+</html>

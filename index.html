@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Register System Using JavaScript</title>
+
+    <!-- font awsom cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- to link css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- =============== login form ============ -->
+    <section>
+      <div class="continer">
+        <!-- form title  -->
+        <div class="formTitle">
+          <div><i class="fa fa-sign-in-alt"></i></div>
+          <h2>Welcome Back</h2>
+          <p>Sign in to your account</p>
+        </div>
+
+        <!-- login form  -->
+        <form action="">
+          <div>
+            <label for="Email Address">
+              <div><i class="fa-solid fa-envelope"></i></div>
+              <p>Email Address</p></label
+            >
+            <input class="email" type="email" placeholder="Enter your email" />
+            <p class="alert checkEmail">this email dos not exist *</p>
+          </div>
+          <div>
+            <label for="Email Address"
+              ><div><i class="fa-solid fa-lock"></i></div>
+              <p>Password</p>
+            </label>
+            <input
+              class="password"
+              type="password"
+              placeholder="Enter your password"
+            />
+            <p class="alert passwordCheck">your password is not correct *</p>
+          </div>
+          <button class="subbutton" type="submit">Sign in</button>
+        </form>
+
+        <!-- redirect link  -->
+        <div class="rdirectLink">
+          <p>Don't have an account?</p>
+          <a href="register.html">Create Account</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- to link js fille  -->
+    <script src="js/login.js"></script>
+  </body>
+</html>
