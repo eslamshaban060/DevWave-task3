@@ -18,7 +18,7 @@ SubButton.addEventListener("click", () => {
       EmailAlert.classList.remove("error");
       PasswordAlert.classList.remove("error");
 
-      window.location.replace("/user.html");
+      window.location.replace("user.html");
     }
   }
 });

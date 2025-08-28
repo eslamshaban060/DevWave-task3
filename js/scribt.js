@@ -36,7 +36,7 @@ button.addEventListener("click", () => {
           thename.value = "";
           email.value = "";
           password.value = "";
-          window.location.replace("/index.html");
+          window.location.replace("index.html");
         }
       } else {
         email.classList.add("error");

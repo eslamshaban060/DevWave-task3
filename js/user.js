@@ -14,5 +14,5 @@ window.onload = function () {
 logout.addEventListener("click", () => {
   event.preventDefault();
   localStorage.setItem("useData", null);
-  window.location.replace("/register.html");
+  window.location.replace("register.html");
 });
